@@ -12,3 +12,9 @@ During the session we are going to be using the vscode extension live share, ple
 ```bash
 yarn test:fizzbuzz
 ```
+
+2. GildedRose with this dojo, we are going to learn the basics of how to refactor legacy code [Go to dojo](./GildedRose/README.md) to run the test suite
+
+```bash
+yarn test:gildedrose
+```
