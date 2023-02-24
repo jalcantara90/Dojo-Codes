@@ -10,16 +10,16 @@ const mapper: Record<number, string> = {
   15: 'FizzBuzz'
 }
 
-function multipleMapper(input: number): string{
-  const index = Object.keys(mapper).find(multiple => {
-    return isMultipleOf(input, parseInt(multiple));
-  })
+// function multipleMapper(input: number): string{
+//   const index = Object.keys(mapper).find(multiple => {
+//     return isMultipleOf(input, parseInt(multiple));
+//   })
   
-  return index ? mapper[index] : undefined;
-}
+//   return index ? mapper[index] : undefined;
+// }
 
 function fizzBuzz(input: number): string {
-  /* let result = '';
+  let result = '';
 
   if (isMultipleOf(input, 3)) {
     result += "Fizz";
@@ -27,9 +27,9 @@ function fizzBuzz(input: number): string {
 
   if (isMultipleOf(input,5)) {
     result += "Buzz";
-  } */
+  }
 
-  const result = multipleMapper(input);
+  // const result = multipleMapper(input);
   
   return result ? result : input.toString();
 }
